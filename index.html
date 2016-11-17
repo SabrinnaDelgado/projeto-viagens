@@ -5,6 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="estilo.css">
 		<link rel="stylesheet" href="smart.css" media="screen and (-width: 480px)" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('h1').hide();
+				$('h1').fadeIn(4000);
+				});
+			
+		</script>
 	</head>
 <body>
     <header>
@@ -15,7 +23,7 @@
 		</ul>
     </header>
         <div class="w3-container w3-content w3-center w3-padding-hor-64" style="max-width:800px">
-            <h1 class="w3-wide">Tudo sobre viagens</h1>
+            <h1 class="w3-wide" id= "titulo">Tudo sobre viagens</h1>
             <p class="w3-opacity"><i>Perfis de viajantes</i></p>
             <p class="w3-justify introduction"><b>Cada pessoa tem seu processo, cada um prefere viajar do seu jeito. Se você não gosta de praticar esportes de aventura, não adianta ficar vários dias em Baños, ou subir em vulcão no Equador, por exemplo. Cabe a você escolher outro destino dentro do que realmente te agrada. A gente dá uma ajudinha pra você escolher seu próximo destino. Listamos 6 tipos de viagem pra você escolher de acordo com seu perfil de viajante.</b></p>
       </div>
