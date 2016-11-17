@@ -11,3 +11,99 @@
 		  <li><a href="index.html">Voltar à página inicial</a></li>
 		</ul>
     </header>
+    <h2>Envie seus dados para mais informações</h2>
+    <form>
+        <fieldset>
+            <legend class="hide">Fale Conosco</legend>
+            <div class="t_form_field">
+                <label for="i_name">Nome completo *</label>
+                <div class="input_br">
+                    <div class="input_bl">
+                        <input id="i_name" name="i_name" type="text" class="required">
+                    </div>
+                </div>
+            </div>
+            <div class="t_form_field">
+                <label for="i_email">E-mail *</label>
+                <div class="input_br">
+                    <div class="input_bl">
+                        <input id="i_email" name="i_email" type="text" class="required">
+                    </div>
+                </div>
+            </div>
+            <div class="t_form_field t_tlf">
+                <label for="i_tlf">Telefone *</label>
+                <div class="t_form_field tlf_pre" id="tlf1">
+                    <div class="input_br">
+                        <div class="input_bl">
+                            <input id="i_tlf" name="i_tlf" type="text" class="required">
+                        </div>
+                    </div>
+                </div>
+                <div class="t_form_field tlf_tlf" id="tlf2">
+                    <div class="input_br">
+                        <div class="input_bl">
+                            <input id="i_tlf_2" name="i_tlf_2" type="text" class="required">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="t_form_field t_radio">
+                <span class="label reserva">Possui reserva?</span>
+                <span class="label" id="labelnumreserva">Informe o número *</span>
+                <label for="i_sim"> <input id="i_sim" name="i_reserva" type="radio" value="sim"> Sim </label>
+                <label for="i_nao" id="labelnao"> <input id="i_nao" name="i_reserva" type="radio" checked value="nāo"> Não </label>
+                <div class="input_br sim_reserva">
+                    <div class="input_bl">
+                        <input id="i_rsv" name="i_rsv" type="text" class="required">
+                    </div>
+                </div>
+            </div>
+            <div class="t_form_field t_select">
+                <label for="i_assunto">Assunto *</label>
+                <div class="t_select_wrapper">
+                    <div class="input_br">
+                        <div class="input_bl">
+                            <select id="i_assunto" name="i_assunto" class="required"> <option value=""></option> <option value="Não consegui comprar online">Não consegui comprar online</option> <option value="Solicitação de orçamento">Solicitação de orçamento</option> <option value="Sugestões, críticas e elogios">Sugestões, críticas e elogios</option> </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="t_form_field t_textarea">
+                <label for="i_mensagem">Mensagem *</label>
+                <div class="input_br">
+                    <div class="input_bl">
+                        <div class="input_bc">
+                            <textarea id="i_mensagem" name="i_mensagem" rows="" cols="" class="required"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="t_form_field t_textarea">
+                <label for="i_mensagem">Mensagem *</label>
+                <div class="input_br">
+                    <div class="input_bl">
+                        <div class="input_bc">
+                            <textarea id="i_mensagem" name="i_mensagem" rows="" cols="" class="required"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="t_form_field t_checkbox">
+                <label for="i_info"> <input id="i_info" name="i_info" type="checkbox" value="sim"> </label>
+            </div>
+            <div class="button btn_enviar">
+                <div class="br">
+                    <div class="bl">
+                        <div class="bc">
+                            <input class="submit" type="submit" value="Enviar">
+                            <input type="hidden" value="1" name="enviado">
+                            <input type="hidden" value="" name="num_reserva">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="quote">Os campos com asterísco (*) são de preenchimento obrigatório.</span>
+        </fieldset>
+    </form>
+</body>
